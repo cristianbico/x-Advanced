@@ -1,0 +1,88 @@
+<mxfile host="Electron" modified="2024-06-18T12:57:13.215Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="uyPS7vXGLwOGFv2KwxTg" version="21.2.8" type="device">
+  <diagram name="Página-1" id="EDUEq4J93AbHMUvYi2Sf">
+    <mxGraphModel dx="903" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;Alumno&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="650" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-5" value="Presentar examen de Ingreso" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-6" value="Rellenar Formuario" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-8" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="840" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-11" value="Enviar notificación de examen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-12" value="Evaluar examen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-13" value="Enviar notificación de admisión" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="450" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-14" value="Recibir notificación de admisión" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;Recibir notificación de examen&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="450" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fA-8pzELTW3AO0Dm_Ppj-8" target="fA-8pzELTW3AO0Dm_Ppj-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="430" as="sourcePoint" />
+            <mxPoint x="100" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.983;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fA-8pzELTW3AO0Dm_Ppj-8" target="fA-8pzELTW3AO0Dm_Ppj-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="460" as="sourcePoint" />
+            <mxPoint x="100" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="fA-8pzELTW3AO0Dm_Ppj-8" target="fA-8pzELTW3AO0Dm_Ppj-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="460" as="sourcePoint" />
+            <mxPoint x="100" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.025;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fA-8pzELTW3AO0Dm_Ppj-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="310" as="sourcePoint" />
+            <mxPoint x="100" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.017;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fA-8pzELTW3AO0Dm_Ppj-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <mxPoint x="110" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fA-8pzELTW3AO0Dm_Ppj-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="330" as="sourcePoint" />
+            <mxPoint x="120" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fA-8pzELTW3AO0Dm_Ppj-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <mxPoint x="110" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-30" value="&lt;font face=&quot;Times New Roman&quot;&gt;Administrador&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="498" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fA-8pzELTW3AO0Dm_Ppj-31" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 23px;&quot;&gt;SISTEMA DE ADMISIÓN&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="93" width="290" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
